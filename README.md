@@ -1,5 +1,7 @@
 # lgtv
 
+[![CI](https://github.com/Legion112/lgtv/actions/workflows/ci.yml/badge.svg)](https://github.com/Legion112/lgtv/actions/workflows/ci.yml)
+
 Go CLI and library for controlling LG smart TVs over **SSAP**, the WebSocket
 protocol webOS exposes on the local network. No cloud, no vendor app: the tool
 talks straight to the TV.
@@ -133,3 +135,7 @@ make vet lint
 ```
 
 Tests run against an in-process fake TV, so no hardware is needed.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
