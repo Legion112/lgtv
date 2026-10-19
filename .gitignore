@@ -1,0 +1,5 @@
+# Build output
+/lgtv
+
+# Pairing keys, should they ever be written next to the source
+*.key
